@@ -1,0 +1,163 @@
+html, body {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Cooper Hewitt', sans-serif;
+    color: #666666;
+}
+
+body {
+    background-color: papayawhip;
+}
+
+.top-bar {
+    max-width: 1000px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+   font-size: 25px;
+   position: absolute;
+   padding: 0px 0px 0px 0px;
+   z-index: 3;
+   color: darkred;
+   font-weight: bold;
+        left: 30%;
+}
+
+.top-menu {
+   background-color: #808080;
+   position: absolute;
+   top: 90px;
+   z-index: 3;
+   width: 100%;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: black;
+    border-bottom-width: thick;
+    border-top-width: thin;
+}
+
+.top-menu ul {
+    list-style-type: none;
+    font-size: 15px; 
+    margin-right: 20px;
+}
+
+.top-menu li {
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 18px;
+    float: inherit;
+  position: relative;
+  top: 20%;
+  left: 50%;
+  
+}
+
+.top-menu li a:link, .top-menu li a:visited {
+    color: white;
+    text-decoration: none;
+    padding: 12px 12px 12px 12px;
+}
+
+.top-menu li a:hover {
+    background-color: transparent;
+    color: darkred;
+}
+
+.current-page-link {
+    background-color: transparent;
+    background-size: auto;
+    color: darkred;
+    
+}
+
+.page-content {
+    position: relative;
+    top: 140px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: papayawhip;
+    z-index: 1;
+}
+.main-section {
+    padding: 10px 20px 10px 20px;
+}
+
+.main-section h1, .main-section h2 {
+    color: darkred;
+}
+
+.main-section figure, .main-section img {
+    display: inline-block;
+    margin: 0 20px 20px 0;
+    width: 300px;
+    float: left;
+    box-shadow: 8px 0px 10px #aaa;
+    background-color: floralwhite;
+}
+
+.footer {
+    z-index: 3;
+    width: 1000px;
+    background-color: #696969;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: black;
+    border-top-width: thick;
+    border-bottom-width: thin;
+    position:relative;
+    bottom: 0px;
+    top: 140px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-content {
+    padding: 5px 20px 5px 5px;
+    color: white;
+    text-align: right;
+    font-size: 12px;
+    
+}
+
+.footer-content a:link {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+.footer-content a:hover {
+    background-color: transparent;
+    color: darkred;
+}
+.column {
+    float: left;
+    width: 48%;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ul{
+    position: relative;
+    display: inline-block;
+    list-style: square; 
+    text-align: left;
+    margin-left: 20px; 
+    margin-top: 0px;
+    padding: 0px;
+}
+iframe{
+    width: 470px;
+    border-style: solid;
+    border-color: floralwhite;
+    border-width: thick
+}
