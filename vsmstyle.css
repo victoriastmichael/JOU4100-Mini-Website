@@ -2,7 +2,8 @@ html, body {
     margin: 0;
     padding: 0px 0px 0px 0px;
     font-family: 'Cooper Hewitt', sans-serif;
-    color: #666666;
+    color: #77777;
+    line-height: 1.5;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
 .logo {
    font-size: 25px;
    position: absolute;
-   padding: 0px 0px 0px 0px;
+   padding: 25px 0px 0px 0px;
    z-index: 3;
    color: darkred;
    font-weight: bold;
@@ -71,8 +72,7 @@ body {
 .current-page-link {
     background-color: transparent;
     background-size: auto;
-    color: darkred;
-    
+    color: darkred;   
 }
 
 .page-content {
@@ -89,50 +89,6 @@ body {
 }
 
 .main-section h1, .main-section h2 {
-    color: darkred;
-}
-
-.main-section figure, .main-section img {
-    display: inline-block;
-    margin: 0 20px 20px 0;
-    width: 300px;
-    float: left;
-    box-shadow: 8px 0px 10px #aaa;
-    background-color: floralwhite;
-}
-
-.footer {
-    z-index: 3;
-    width: 1000px;
-    background-color: #696969;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-top-color: black;
-    border-top-width: thick;
-    border-bottom-width: thin;
-    position:relative;
-    bottom: 0px;
-    top: 140px;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.footer-content {
-    padding: 5px 20px 5px 5px;
-    color: white;
-    text-align: right;
-    font-size: 12px;
-    
-}
-
-.footer-content a:link {
-    color: white;
-    text-decoration: none;
-    font-size: 12px;
-}
-.footer-content a:hover {
-    background-color: transparent;
     color: darkred;
 }
 .column {
@@ -155,9 +111,108 @@ ul{
     margin-top: 0px;
     padding: 0px;
 }
+/* spotify player */
 iframe{
     width: 470px;
+    height: 550px;
     border-style: solid;
     border-color: floralwhite;
-    border-width: thick
+    border-width: thick;
+    background: transparent;
+}
+/* link */
+a:link {
+    color: darkred;
+    font-weight: bold;
+}
+/* visited link */
+a:visited {
+    color: darkred;
+}
+/* mouse over link */
+a:hover {
+    color: indianred;
+    cursor: pointer;
+    border-bottom: 1px solid;
+}
+/* selected link */
+a:active {
+    color: darkblue;
+}
+/* photos */
+.main-section figure, .main-section img {
+    display: inline-block;
+    margin: 0 20px 20px 0;
+    width: 400px;
+    float: left;
+    box-shadow: 8px 0px 10px #aaa;
+    background-color: floralwhite;
+}
+/* social buttons on homepage */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius:1000%;
+}
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius:50%;
+}
+/* Instagram */
+.fa-instagram {
+    background: #bc2a8d;
+    color: white;
+    border-radius:50%;
+}
+/* Spotify */
+.fa-spotify {
+    color:white;
+    background:#84bd00;
+    border-radius:50%;
+}
+
+/* footer */
+.footer {
+    z-index: 3;
+    width: 1000px;
+    background-color: #696969;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: black;
+    border-top-width: thick;
+    border-bottom-width: thin;
+    position:relative;
+    bottom: 0px;
+    top: 140px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-content {
+    padding: 5px 20px 5px 5px;
+    color: white;
+    text-align: right;
+    font-size: 12px;    
+}
+.footer-content a:link {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+.footer-content a:hover {
+    background-color: transparent;
+    color: darkred;
 }
